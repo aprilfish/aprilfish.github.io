@@ -30,4 +30,4 @@ branches:
     - gh-pages
 env:
  global:
-   - GH_REF: git@github.com:aprilfish/aprilfish.github.io
+   - GH_REF: github.com/aprilfish/aprilfish.github.io.git
