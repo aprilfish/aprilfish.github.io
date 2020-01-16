@@ -6,7 +6,7 @@ rvm:
 # install:
 #  - npm install
 
-
+install: gem install jekyll html-proofer rdiscount
 
 
 
@@ -14,8 +14,6 @@ rvm:
  # - npm install -g gulp
 
 script:
-  - gem install --no-rdoc --no-ri jekyll -v 2.5.3
-  - gem install rdiscount
   - jekyll build 
 
 after_script:
