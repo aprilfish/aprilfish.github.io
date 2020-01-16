@@ -14,8 +14,9 @@ rvm:
  # - npm install -g gulp
 
 script:
-  - bundle install
-  - bundle exec jekyll build
+  - gem install --no-rdoc --no-ri jekyll -v 2.5.3
+  - gem install rdiscount
+  - jekyll build 
 
 after_script:
   - cd ./public
@@ -29,7 +30,7 @@ after_script:
 
 branches:
   only:
-    - Jekyll-pages
+    - gh-pages
 env:
  global:
-   - GH_REF: git@github.com:zhaohq90/zhaohq.git
+   - GH_REF: git@github.com:aprilfish/aprilfish.github.io
