@@ -16,7 +16,7 @@ script:
   - jekyll build 
 
 after_script:
-  - cd ./public
+  - cd _site
   - git init
   - git config user.name "zhaohq"
   - git config user.email "zhaohq@fastmail.com"
