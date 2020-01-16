@@ -13,7 +13,7 @@ rvm:
  # - npm install -g gulp
 
 script:
-  - jekyll build  --source _posts
+  - jekyll build  
 
 after_script:
   - cd _site
