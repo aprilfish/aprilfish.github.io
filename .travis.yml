@@ -6,7 +6,6 @@ rvm:
 # install:
 #  - npm install
 
-install: gem install jekyll html-proofer rdiscount
 
 
 
